@@ -10,6 +10,17 @@
         <g:javascript library="application" />			
     </head>
     <body>
+        <div id="top">
+        	<h2 id="logo">
+        	    <a href="/">FLOSS Solutions Website Design & User Interface Development</a>
+    	    </h2>
+        	<div id="nav">
+        		<ul>
+        			<li>Home</li>
+        			<li>Blah</li>
+        		</ul>
+        	</div>
+        </div>
         <h1 style="background: white;">Test</h1>
         <!-- <div id="spinner" class="spinner" style="display:none;">
                     <img src="${resource(dir:'images',file:'spinner.gif')}" alt="Spinner" />
