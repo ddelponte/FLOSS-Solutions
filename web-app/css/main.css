@@ -4,6 +4,11 @@ ol, ul {
     list-style-type:none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+
 #top, #main, #foot {
     min-width:960px;
     padding-left:1.5em;
@@ -72,15 +77,25 @@ ol, ul {
     float:left;
     height:29px;
     margin-left:15px;
-    margin-top:15px;
+    margin-top:20px;
     position:relative;
+    text-transform: uppercase;
     z-index:99;
 }
 
 #nav li a {
     color:white;
-    font-size:18px;
-    padding:8px 9px;
+    font-size:14px;
+    padding:0px 9px;
     text-decoration:none;
-    display: block;
+}
+
+h1, h2, h3, h4 {
+    color:#910E02;
+    margin:10px 0;
+}
+
+h1 {
+    font-size:123.1%;
+    text-transform:uppercase;
 }
