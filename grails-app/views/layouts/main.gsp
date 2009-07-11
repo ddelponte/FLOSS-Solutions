@@ -16,8 +16,18 @@
     	    </h2>
         	<div id="nav">
         		<ul>
-        			<li>Home</li>
-        			<li>Blah</li>
+		            <li>
+                        <a title="Our user interface design and application development portfolio"
+                            href="/portfolio">Portfolio</a>
+                    </li>
+		            <li>
+                        <a title="Our user interface design and application development portfolio"
+                            href="/portfolio">More Stuff</a>
+                    </li>
+		            <li>
+                        <a title="Our user interface design and application development portfolio"
+                            href="/portfolio">More Stuff</a>
+                    </li>
         		</ul>
         	</div>
         </div>
