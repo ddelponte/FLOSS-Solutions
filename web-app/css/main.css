@@ -103,3 +103,38 @@ h1 {
     font-size:123.1%;
     text-transform:uppercase;
 }
+
+#foot {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#000000 none repeat scroll 0 0;
+    border-top:10px solid #CDCED3;
+    color:#5D696B;
+    overflow:auto;
+    padding-bottom:10px;
+    padding-top:20px;
+    text-align:left;
+}
+#foot .extrapad {
+    padding:0 12px 0 7px;
+}
+#foot img {
+    border:5px solid #CCCCCC;
+    margin:5px 10px 5px 0;
+}
+#foot a {
+    color:#AC0D00;
+    text-decoration:none;
+}
+#foot a:hover {
+    color:#660000;
+    text-decoration:underline;
+}
+#foot p strong {
+    color:#EEF3F5;
+}
+#foot h1, #foot h2, #foot h3, #foot h4, #foot h5, #foot h6 {
+    color:#EEF3F5;
+    letter-spacing:1px;
+}

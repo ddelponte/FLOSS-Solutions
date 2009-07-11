@@ -50,6 +50,10 @@
         		</p>
         	</div>
         </div>
-        <g:layoutBody />            
+        <g:layoutBody />
+        <div id="foot">
+            <div class="container-12">
+            </div>
+        </div>            
     </body>	
 </html>
