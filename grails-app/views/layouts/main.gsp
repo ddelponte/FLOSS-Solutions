@@ -14,26 +14,7 @@
         	<h2 id="logo">
         	    <a href="/">FLOSS Solutions Website Design & User Interface Development</a>
     	    </h2>
-        	<div id="nav">
-        		<ul>
-		            <li>
-                        <a title="Our user interface design and application development portfolio"
-                            href="/portfolio">Home</a>
-                    </li>
-		            <li>
-                        <a title="Our user interface design and application development portfolio"
-                            href="/portfolio">Services</a>
-                    </li>
-		            <li>
-                        <a title="Our user interface design and application development portfolio"
-                            href="/portfolio">Portfolio</a>
-                    </li>
-		            <li>
-                        <a title="Our user interface design and application development portfolio"
-                            href="/portfolio">Contact</a>
-                    </li>
-        		</ul>
-        	</div>
+    	    <tmpl:/shared/topNavMenu />
         </div>
         <h1 style="background: white;">Test</h1>
         <!-- <div id="spinner" class="spinner" style="display:none;">
@@ -51,9 +32,6 @@
         	</div>
         </div>
         <g:layoutBody />
-        <div id="foot">
-            <div class="container-12">
-            </div>
-        </div>            
+        <tmpl:/shared/footer />          
     </body>	
 </html>
