@@ -10,27 +10,11 @@
         <g:javascript library="application" />			
     </head>
     <body>
-        <div id="top">
-        	<h2 id="logo">
-        	    <a href="/">FLOSS Solutions Website Design & User Interface Development</a>
-    	    </h2>
-    	    <tmpl:/shared/topNavMenu />
-        </div>
-        <h1 style="background: white;">Test</h1>
+        <tmpl:/shared/top />
         <!-- <div id="spinner" class="spinner" style="display:none;">
                     <img src="${resource(dir:'images',file:'spinner.gif')}" alt="Spinner" />
                 </div>  
                 <div class="logo"><img src="${resource(dir:'images',file:'grails_logo.jpg')}" alt="Grails" /></div> -->
-        <div class="container_12">
-        	<h2>
-        		12 Column Grid
-        	</h2>
-        	<div class="grid_12">
-        		<p>
-        			940px
-        		</p>
-        	</div>
-        </div>
         <g:layoutBody />
         <tmpl:/shared/footer />          
     </body>	
