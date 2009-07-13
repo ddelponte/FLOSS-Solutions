@@ -20,6 +20,7 @@
                     </div>
                     <div class="logo"><img src="${resource(dir:'images',file:'grails_logo.jpg')}" alt="Grails" /></div> -->
             <g:layoutBody />
+            <div class="clear"></div>
         </div> 
         <tmpl:/shared/footer />
     </body>
