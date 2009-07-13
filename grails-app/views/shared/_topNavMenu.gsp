@@ -1,11 +1,10 @@
 <div id="nav">
 	<ul>
         <li>
-            <g:link title="FLOSS Solutions - Home" controller="home" action="index">Home</g:link>
+            <g:link title="FLOSS Solutions" controller="home" action="index">Home</g:link>
         </li>
         <li>
-            <a title="Our user interface design and application development portfolio"
-                href="/portfolio">Services</a>
+            <g:link title="FLOSS Solutions - Services" controller="services" action="index">Services</g:link>
         </li>
         <li>
             <a title="Our user interface design and application development portfolio"
