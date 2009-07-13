@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title><g:layoutTitle default="Grails" /></title>
@@ -19,7 +20,7 @@
                     </div>
                     <div class="logo"><img src="${resource(dir:'images',file:'grails_logo.jpg')}" alt="Grails" /></div> -->
             <g:layoutBody />
-            <!-- <tmpl:/shared/footer /> -->
-        </div>
+        </div> 
+        <tmpl:/shared/footer />
     </body>
 </html>

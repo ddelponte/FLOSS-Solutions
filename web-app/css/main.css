@@ -20,9 +20,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #top {
-    -moz-background-clip:border;
-    -moz-background-inline-policy:continuous;
-    -moz-background-origin:padding;
     background:black url(../images/layout/top-bg.png) repeat-x scroll 0 0;
     clear:both;
     height:55px;
@@ -33,9 +30,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #logo {
-    -moz-background-clip:border;
-    -moz-background-inline-policy:continuous;
-    -moz-background-origin:padding;
     background:transparent url(../images/layout/logoWeb.png) no-repeat scroll left center;
     height:55px;
     left:50%;
@@ -53,9 +47,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav {
-    -moz-background-clip:border;
-    -moz-background-inline-policy:continuous;
-    -moz-background-origin:padding;
     background:transparent url(../images/layout/nav-bg-left.png) no-repeat scroll left top;
     height:55px;
     left:50%;
@@ -67,9 +58,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav ul {
-    -moz-background-clip:border;
-    -moz-background-inline-policy:continuous;
-    -moz-background-origin:padding;
     background:transparent url(../images//layout/nav-bg-right.png) repeat-x scroll left top;
     clear:both;
     height:55px;
@@ -105,9 +93,6 @@ h1 {
 }
 
 #foot {
-    -moz-background-clip:border;
-    -moz-background-inline-policy:continuous;
-    -moz-background-origin:padding;
     background:#000000 none repeat scroll 0 0;
     border-top:10px solid #CDCED3;
     color:#5D696B;
@@ -115,6 +100,7 @@ h1 {
     padding-bottom:10px;
     padding-top:20px;
     text-align:left;
+    margin-left: 0px;
 }
 #foot .extrapad {
     padding:0 12px 0 7px;
