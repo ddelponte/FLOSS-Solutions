@@ -10,6 +10,7 @@
                 <div class="message">${flash.message}</div>
             </g:if>
         </div>
+        <tmpl:contentSlider />
         <div class="clear"></div>
         <div class="grid_12">
             <h1>Why FLOSS Solutions?</h1>
