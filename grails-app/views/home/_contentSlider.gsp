@@ -56,7 +56,7 @@
 
         			<div class="cs_article">
         			    <div class="grid_4">
-        					<img class="cs_article_img" style="margin-top: 10px; margin-left: 30px;" src="${resource(dir:'images', file:'typing-hands.png')}" alt="Pickhoo.com" />
+        					<img class="cs_article_img" style="margin-top: 10px; margin-left: 60px;" src="${resource(dir:'images', file:'webapp.png')}" alt="Pickhoo.com" />
     			        </div>
     			        <div class="grid_3">
             				<h1>Web Applications</h1>
@@ -81,11 +81,8 @@
         				    </ul>
     		            </div>
         			    <div class="grid_3">
-        					<img class="cs_article_img" style="margin-top: 10px; margin-left: 0px;" src="${resource(dir:'images', file:'pickhoo.png')}" alt="Pickhoo.com" />
+        					<img class="cs_article_img" style="margin-top: 20px;" src="${resource(dir:'images', file:'webhosting.png')}" alt="Pickhoo.com" />
     			        </div>
-        				<g:link class="readmore" title="Professional Websites" controller="services" action="index">
-        				    Read More
-        				</g:link>
         			</div><!-- End cs_article -->
         		</div><!-- End cs_slider -->
         	</div><!-- End cs_wrapper -->
