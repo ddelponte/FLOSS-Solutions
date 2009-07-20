@@ -25,11 +25,11 @@
         					<img class="cs_article_img" style="margin-top: 10px; margin-left: 30px;" src="${resource(dir:'images', file:'typing-hands.png')}" alt="Pickhoo.com" />
     			        </div>
     			        <div class="grid_3">
-            				<h1>Freelance IT</h1>
+            				<h1>Freelance Software Professionals</h1>
             				<ul>
             				    <li>Websites</li>
-            				    <li>Applications</li>
-            				    <li>Training</li>
+            				    <li>Web Applications</li>
+            				    <li>Groovy/Grails Training</li>
             				    <li>Web Hosting</li>
         				    </ul>
 			            </div>
@@ -41,7 +41,7 @@
         			<div class="cs_article">
     			        <div class="grid_3 prefix_1">
             				<h1>Custom Websites</h1>
-            				<ul>
+            				<ul style="margin-left: 15px;">
             				    <li>Professional</li>
             				    <li>Attractive Design</li>
             				    <li>AJAX</li>
@@ -60,7 +60,7 @@
     			        </div>
     			        <div class="grid_3">
             				<h1>Web Applications</h1>
-            				<ul>
+            				<ul style="margin-left: 15px;">
             				    <li>Websites</li>
             				    <li>Applications</li>
             				    <li>Training</li>
@@ -70,9 +70,9 @@
         			</div><!-- End cs_article -->
 
         			<div class="cs_article">
-    			        <div class="grid_3 prefix_1">
+    			        <div class="grid_3" style="margin-left: 45px;">
             				<h1>Web Hosting</h1>
-            				<ul>
+            				<ul style="margin-left: 35px;">
             				    <li>Professional</li>
             				    <li>Attractive Design</li>
             				    <li>AJAX</li>
@@ -84,6 +84,7 @@
         					<img class="cs_article_img" style="margin-top: 20px;" src="${resource(dir:'images', file:'webhosting.png')}" alt="Pickhoo.com" />
     			        </div>
         			</div><!-- End cs_article -->
+            			
         		</div><!-- End cs_slider -->
         	</div><!-- End cs_wrapper -->
 

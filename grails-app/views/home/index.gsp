@@ -2,7 +2,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="layout" content="main"/>
-        <title>Title</title>
+        <title>FLOSS Solutions - Freelance Software Professionals</title>
     </head>
     <body>
         <div class="grid_12">
@@ -15,10 +15,8 @@
         <br />
         <div class="grid_12">
             <h1>Why FLOSS Solutions?</h1>
-            <p>We specialize in providing high quality, cost effective, 
-                custom software solutions that deliver real value, on-time 
-                and within budget.  The success of our business is rooted 
-                in three key areas:  communication, people, and technology.</p>
+            <p>We provide professional freelance web development.  Over 13 years experience in the 
+                industry, we've worked in healthcare, manufacturing, government, retail, and marketing.</p>
         </div>
     </body>
 </html>

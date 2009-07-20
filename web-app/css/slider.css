@@ -114,10 +114,13 @@
 
 /* Slider content */
 .cs_article h1 {
-    font-size: 150%;
+    font-size: 130%;
+    text-align: center;
+    margin-top:30px;
 }
+
 .cs_article li {
-    margin-left: 20px;
+    margin-left: 30px;
     list-style-type:circle;
-    font-size: 140%;
+    font-size: 130%;
 }
