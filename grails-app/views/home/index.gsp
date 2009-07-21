@@ -5,18 +5,46 @@
         <title>FLOSS Solutions - Freelance Software Professionals</title>
     </head>
     <body>
-        <div class="grid_12">
-            <g:if test="${flash.message}">
-                <div class="message">${flash.message}</div>
-            </g:if>
-        </div>
-        <tmpl:contentSlider />
-        <div class="clear"></div>
-        <br />
-        <div class="grid_12">
-            <h1>Why FLOSS Solutions?</h1>
-            <p>We provide professional freelance web development.  Over 13 years experience in the 
-                industry, we've worked in healthcare, manufacturing, government, retail, and marketing.</p>
+        <div class="main">
+            <div class="grid_12">
+                <g:if test="${flash.message}">
+                    <div class="message">${flash.message}</div>
+                </g:if>
+            </div>
+            <tmpl:contentSlider />
+            <div class="clear"></div>
+            <br />
+            <div class="grid_11 prefix_1">
+                <h1>Why FLOSS Solutions?</h1>
+                <p>If you are in need of a freelancer to develop a website, web application, or 
+                    you are looking to provide <a href="http://www.springsource.com/products/grails">
+                    Groovy/Grails</a> training to your employees, we have 
+                    the solution.</p>
+                    
+                <p>We provide professional, freelance software development.  With over 13 years 
+                    of software consulting experience, we are able to provide quality solutions 
+                    in a timely, efficient manner.</p>
+                    
+                <h1>Our Industry Experience</h1>
+                <div class="grid_3">
+                    <ul>
+                        <li>Healthcare</li>
+                        <li>Manufacturing</li>
+                    </ul>
+                </div>
+                <div class="grid_3">
+                    <ul>
+                        <li>Local Government</li>
+                        <li>Human Resources</li>
+                    </ul>
+                </div>
+                <div class="grid_3">
+                    <ul>
+                        <li>Retail</li>
+                        <li>Marketing</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </body>
 </html>

@@ -84,6 +84,22 @@
         					<img class="cs_article_img" style="margin-top: 20px;" src="${resource(dir:'images', file:'webhosting.png')}" alt="Pickhoo.com" />
     			        </div>
         			</div><!-- End cs_article -->
+
+        			<div class="cs_article">
+        			    <div class="grid_4">
+        					<img class="cs_article_img" style="margin-top: 10px; margin-left: 60px;" src="${resource(dir:'images', file:'groovy.png')}" alt="Pickhoo.com" />
+        					<img class="cs_article_img" style="margin-top: -20px; margin-left: 30px;" src="${resource(dir:'images', file:'grails_logo.png')}" alt="Pickhoo.com" />
+    			        </div>
+    			        <div class="grid_3">
+            				<h1>Groovy/Grails Training</h1>
+            				<ul style="margin-left: 30px;">
+            				    <li>Customized</li>
+            				    <li>Beginner</li>
+            				    <li>Intermediate</li>
+            				    <li>Expert</li>
+        				    </ul>
+			            </div>
+        			</div><!-- End cs_article -->
             			
         		</div><!-- End cs_slider -->
         	</div><!-- End cs_wrapper -->

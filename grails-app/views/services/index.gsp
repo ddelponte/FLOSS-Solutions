@@ -30,12 +30,50 @@
         </div>
         <div class="grid_2 prefix_1">
             <h1>Tech Toolbox</h1>
+            <span class="techToolbox">
             <div class="grid_1 alpha">
                 Groovy
             </div>
             <div class="grid_1 omega">
                 Grails
             </div>
+            <div class="grid_1 alpha">
+                Java
+            </div>
+            <div class="grid_1 omega">
+                AJAX
+            </div>
+            <div class="grid_1 alpha">
+                JavaScript
+            </div>
+            <div class="grid_1 omega">
+                jQuery
+            </div>
+            <div class="grid_1 alpha">
+                HTML
+            </div>
+            <div class="grid_1 omega">
+                CSS
+            </div>
+            <div class="grid_1 alpha">
+                GWT
+            </div>
+            <div class="grid_1 omega">
+                Apache
+            </div>
+            <div class="grid_1 alpha">
+                Tomcat
+            </div>
+            <div class="grid_1 omega">
+                Linux
+            </div>
+            <div class="grid_1 alpha">
+                OS X
+            </div>
+            <div class="grid_1 omega">
+                Windows
+            </div>
+            </span>
         </div>
         <div class="clear"></div>
     </body>

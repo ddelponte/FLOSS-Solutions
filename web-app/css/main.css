@@ -146,3 +146,12 @@ html, body {
 .foot, .push {
     height: 9em;
 }
+
+.main {
+/*    background: #FFFFFF url(http://simplestation.com/images/layout/bg-homepage.jpg) repeat-x scroll 50% 0;;*/
+}
+
+/*  Misc */
+.techToolbox {
+    font-size: 95%;
+}
