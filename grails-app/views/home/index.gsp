@@ -14,7 +14,7 @@
             <tmpl:contentSlider />
             <div class="clear"></div>
             <br />
-            <div class="grid_11 prefix_1">
+            <div class="grid_10 prefix_1">
                 <h1>Why FLOSS Solutions?</h1>
                 <p>If you are in need of a freelancer to develop a website, web application, or 
                     you are looking to provide <a href="http://www.springsource.com/products/grails">
@@ -26,23 +26,23 @@
                     in a timely, efficient manner.</p>
                     
                 <h1>Our Industry Experience</h1>
-                <div class="grid_3">
-                    <ul>
-                        <li>Healthcare</li>
-                        <li>Manufacturing</li>
-                    </ul>
+                <div class="grid_3 alpha">
+                    Healthcare
                 </div>
-                <div class="grid_3">
-                    <ul>
-                        <li>Local Government</li>
-                        <li>Human Resources</li>
-                    </ul>
+                <div class="grid_3 alpha">
+                    Local Government
                 </div>
-                <div class="grid_3">
-                    <ul>
-                        <li>Retail</li>
-                        <li>Marketing</li>
-                    </ul>
+                <div class="grid_3 alpha">
+                    Retail
+                </div>
+                <div class="grid_3 alpha">
+                    Manufacturing
+                </div>
+                <div class="grid_3 alpha">
+                    Human Resources
+                </div>
+                <div class="grid_3 alpha">
+                    Marketing
                 </div>
             </div>
         </div>
