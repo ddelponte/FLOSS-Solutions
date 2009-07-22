@@ -7,12 +7,10 @@
             <g:link title="FLOSS Solutions - Services" controller="services" action="index">Services</g:link>
         </li>
         <li>
-            <a title="Our user interface design and application development portfolio"
-                href="/portfolio">Portfolio</a>
+            <g:link title="FLOSS Solutions - Portfolio" controller="portfolio" action="index">Portfolio</g:link>
         </li>
         <li>
-            <a title="Our user interface design and application development portfolio"
-                href="/portfolio">Contact</a>
+            <g:link title="FLOSS Solutions - Contact" controller="contact" action="index">Contact</g:link>
         </li>
 	</ul>
 </div>

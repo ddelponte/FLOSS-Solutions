@@ -16,9 +16,9 @@ class MailService {
         try
         {
             Message msg = new MimeMessage(session)
-            msg.setFrom(new InternetAddress("test.test@test.com"))
-            msg.addRecipient(Message.RecipientType.TO, new InternetAddress("test@test.com", "First Last"))
-            msg.setSubject(msgSubject ?: '[subject]')
+            msg.setFrom(new InternetAddress("FLOSS_site@flosssolutions.com"))
+            msg.addRecipient(Message.RecipientType.TO, new InternetAddress("dean.delponte@flosssolutions.com", "Dean Del Ponte"))
+            msg.setSubject(msgSubject ?: '[Contact Inquiry]')
             msg.setText(msgBody ?: '')
             Transport.send(msg)
         }

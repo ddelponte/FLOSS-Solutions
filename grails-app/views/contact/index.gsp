@@ -10,5 +10,11 @@
                 <div class="message">${flash.message}</div>
             </g:if>
         </div>
+        <div class="grid_12">
+            <g:form name="contactForm" action="sendEmail">
+                test
+                <g:submitButton name="sendEmail" value="Submit" />
+            </g:form>
+        </div>
     </body>
 </html>
