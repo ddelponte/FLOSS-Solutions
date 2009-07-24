@@ -152,9 +152,9 @@ html, body {
     background: #FFFFFF url(../images/layout/bg-homepage.jpg) repeat-x scroll 50% 0;;
 }
 
-/*  Misc */
+/*  Tech Toolbox */
 .techToolbox {
-    background-color: gray;
+    background-color: #C1D6DC;
     margin-top: 5px;
 }
 
@@ -166,4 +166,28 @@ html, body {
 .techToolbox li {
     margin-left: 5px;
     font-size: 95%;
+}
+
+.box {
+    background: #C1D6DC; 
+}
+.toolboxtop {
+/*    background: url(../images/tbne.gif) no-repeat top right; */
+}
+.toolboxtop div {
+    font-size: 0;
+    height: 10px;
+    background: url(../images/tbnw.gif) no-repeat top left; 
+}
+.toolboxbottom { 
+/*  background: url(../images/tbse.gif) no-repeat bottom right; */
+}
+.toolboxbottom div { 
+  font-size: 0;
+  height: 10px; 
+  background: url(../images/tbsw.gif) no-repeat bottom left; 
+}
+.toolboxcontent {
+  padding: 0px 10px 0px 10px;
+  height: 15em;
 }

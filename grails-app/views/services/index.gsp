@@ -28,31 +28,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar velit non urna porttitor sit amet posuere elit dapibus. Aliquam malesuada mauris vitae quam egestas lobortis. Etiam eu purus pellentesque tortor blandit tincidunt in in erat. Donec porttitor turpis quis lectus consequat molestie. Aliquam erat volutpat. Donec in elit lacinia turpis vestibulum ullamcorper. Vivamus non volutpat tellus. Integer justo elit, elementum non commodo quis, consequat at ante. Sed aliquet, magna non facilisis sollicitudin, arcu ipsum consequat mi, sed rutrum neque nunc et risus. Phasellus velit massa, sodales nec dignissim eget, condimentum ac eros. Phasellus volutpat tristique ipsum, eget venenatis ante porta euismod. Nam convallis facilisis leo et pharetra. Fusce adipiscing eros sed augue porta vestibulum commodo nunc sodales. Aliquam non tempor sapien. Nulla facilisi. Pellentesque sit amet hendrerit est. Nullam quis lectus vel ipsum aliquam viverra.</p>
             </div>
         </div>
-        <div class="grid_3 techToolbox">
-            <h1>Tech Toolbox</h1>
-            <div class="grid_1">
-                <ul>
-                    <li>Groovy</li>
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>GWT</li>
-                    <li>Tomcat</li>
-                    <li>OS X</li>
-                </ul>
-            </div>
-            <div class="grid_1">
-                <ul>
-                    <li>Grails</li>
-                    <li>AJAX</li>
-                    <li>jQuery</li>
-                    <li>CSS</li>
-                    <li>Apache</li>
-                    <li>Linux</li>
-                    <li>Windows</li>
-                </ul>
-            </div>
-        </div>
+        <tmpl:/shared/techToolbox />
         <div class="clear"></div>
     </body>
 </html>
