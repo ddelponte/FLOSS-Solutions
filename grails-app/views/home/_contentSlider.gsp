@@ -61,10 +61,10 @@
     			        <div class="grid_3">
             				<h1>Web Applications</h1>
             				<ul style="margin-left: 15px;">
-            				    <li>Websites</li>
-            				    <li>Applications</li>
-            				    <li>Training</li>
-            				    <li>Web Hosting</li>
+            				    <li>Custom Logic</li>
+            				    <li>Database Backend</li>
+            				    <li>Intuitive Design</li>
+            				    <li>Hosting</li>
         				    </ul>
 			            </div>
         			</div><!-- End cs_article -->
@@ -73,11 +73,11 @@
     			        <div class="grid_3" style="margin-left: 45px;">
             				<h1>Web Hosting</h1>
             				<ul style="margin-left: 35px;">
-            				    <li>Professional</li>
-            				    <li>Attractive Design</li>
-            				    <li>AJAX</li>
-            				    <li>Development</li>
-            				    <li>Hosting</li>
+            				    <li>Affordable</li>
+            				    <li>Scalable</li>
+            				    <li>Reliable</li>
+            				    <li>Responsive</li>
+            				    <li>Great Support</li>
         				    </ul>
     		            </div>
         			    <div class="grid_3">

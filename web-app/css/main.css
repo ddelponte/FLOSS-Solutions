@@ -101,6 +101,7 @@ h1 {
     padding-top:20px;
     text-align:left;
     margin-left: 0px;
+    margin-top: 2em;
 }
 
 #foot .extrapad {
@@ -140,18 +141,29 @@ html, body {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -9em;
+    margin: 0 auto -11em;
 }
 
 .foot, .push {
-    height: 9em;
+    height: 11em;
 }
 
 .main {
-/*    background: #FFFFFF url(http://simplestation.com/images/layout/bg-homepage.jpg) repeat-x scroll 50% 0;;*/
+    background: #FFFFFF url(../images/layout/bg-homepage.jpg) repeat-x scroll 50% 0;;
 }
 
 /*  Misc */
 .techToolbox {
+    background-color: gray;
+    margin-top: 5px;
+}
+
+.techToolbox h1, .techToolbox li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.techToolbox li {
+    margin-left: 5px;
     font-size: 95%;
 }
