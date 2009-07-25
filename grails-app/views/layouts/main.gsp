@@ -16,10 +16,6 @@
             <tmpl:/shared/top />
             <div class="main">
                 <div class="container_12">
-                    <!-- <div id="spinner" class="spinner" style="display:none;">
-                                <img src="${resource(dir:'images',file:'spinner.gif')}" alt="Spinner" />
-                            </div>
-                            <div class="logo"><img src="${resource(dir:'images',file:'grails_logo.jpg')}" alt="Grails" /></div> -->
                     <g:layoutBody />
                     <div class="clear"></div>
                     <div class="push"></div>
