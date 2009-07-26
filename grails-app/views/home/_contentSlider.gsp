@@ -109,6 +109,6 @@
     <div class='boxbottom'><div></div></div>
 </div>
 
-<g:javascript src="slider/jquery.easing.1.3.js" />
+<g:javascript src="jquery.easing.1.3.js" />
 <g:javascript src="slider/jquery.ennui.contentslider.js" />
 <g:javascript src="jquery.dropshadow.js" />
