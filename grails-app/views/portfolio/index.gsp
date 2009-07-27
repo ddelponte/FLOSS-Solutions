@@ -7,7 +7,7 @@
     </head>
     <body>
         <jq:jquery>
-            $("a").fancybox({
+            $(".imageZoom").fancybox({
                 'zoomSpeedIn': 500,
                 'zoomSpeedOut': 500,
                 'overlayShow': true
@@ -18,7 +18,26 @@
                 <div class="message">${flash.message}</div>
             </g:if>
         </div>
-        <a title="Sample title" href="http://blog.insicdesigns.com/wp-content/uploads/2009/01/fancy-zoom.jpg"><img src="http://www.flossdemo.com/olmeidemo/image/thumbnail/16"/></a>
+        <div class="grid_4 prefix_1 suffix_1">
+            <a class="imageZoom" title="PickHoo.com" href="${resource(dir:'images',file:'pickhooHomeLarge.png')}">
+                <img src="${resource(dir:'images', file: 'pickhooHomeSmall.png')}"/>
+            </a>
+        </div>
+        <div class="grid_4 prefix_1 suffix_1">
+            <a class="imageZoom" title="GrailsBlog.com" href="${resource(dir:'images',file:'grailsblogHomeLarge.png')}">
+                <img src="${resource(dir:'images', file: 'grailsblogHomeSmall.png')}"/>
+            </a>
+        </div>
+        <div class="grid_4 prefix_1 suffix_1">
+            <a class="imageZoom" title="GrailsBlog.com" href="${resource(dir:'images',file:'campbellsportgovHomeLarge.png')}">
+                <img src="${resource(dir:'images', file: 'campbellsportgovHomeSmall.png')}"/>
+            </a>
+        </div>
+        <div class="grid_4 prefix_1 suffix_1">
+            <a class="imageZoom" title="GrailsBlog.com" href="${resource(dir:'images',file:'sigepalumniHomeLarge.png')}">
+                <img src="${resource(dir:'images', file: 'sigepalumniHomeSmall.png')}"/>
+            </a>
+        </div>
         <g:javascript src="jquery.easing.1.3.js" />
         <g:javascript src="jquery.fancybox/jquery.fancybox-1.2.1.pack.js" />
     </body>
