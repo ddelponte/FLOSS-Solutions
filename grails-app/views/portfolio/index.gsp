@@ -24,8 +24,8 @@
             </a>
         </div>
         <div class="grid_4 prefix_1 suffix_1">
-            <a class="imageZoom" title="GrailsBlog.com" href="${resource(dir:'images',file:'grailsblogHomeLarge.png')}">
-                <img src="${resource(dir:'images', file: 'grailsblogHomeSmall.png')}"/>
+            <a class="imageZoom" title="GrailsBlog.com" href="${resource(dir:'images',file:'grailsBlogHomeLarge.png')}">
+                <img src="${resource(dir:'images', file: 'grailsBlogHomeSmall.png')}"/>
             </a>
         </div>
         <div class="grid_4 prefix_1 suffix_1">
