@@ -10,7 +10,8 @@
             $(".imageZoom").fancybox({
                 'zoomSpeedIn': 500,
                 'zoomSpeedOut': 500,
-                'overlayShow': true
+                'overlayShow': false,
+                'padding': 0
             });
         </jq:jquery>
         <div class="grid_12">
@@ -18,23 +19,29 @@
                 <div class="message">${flash.message}</div>
             </g:if>
         </div>
-        <div class="grid_4 prefix_1 suffix_1">
+        <div class="grid_6">
+            <h1>PickHoo.com</h1>
             <a class="imageZoom" title="PickHoo.com" href="${resource(dir:'images',file:'pickhooHomeLarge.png')}">
                 <img src="${resource(dir:'images', file: 'pickhooHomeSmall.png')}"/>
             </a>
         </div>
-        <div class="grid_4 prefix_1 suffix_1">
+        <div class="grid_6">
+            <h1>GrailsBlog.com</h1>
             <a class="imageZoom" title="GrailsBlog.com" href="${resource(dir:'images',file:'grailsBlogHomeLarge.png')}">
                 <img src="${resource(dir:'images', file: 'grailsBlogHomeSmall.png')}"/>
             </a>
         </div>
-        <div class="grid_4 prefix_1 suffix_1">
-            <a class="imageZoom" title="GrailsBlog.com" href="${resource(dir:'images',file:'campbellsportgovHomeLarge.png')}">
+        <div class="clear"></div>
+        <div class="clear"></div>
+        <div class="grid_6">
+            <h1>Campbellsportgov.com</h1>
+            <a class="imageZoom" title="Campbellsportgov.com" href="${resource(dir:'images',file:'campbellsportgovHomeLarge.png')}">
                 <img src="${resource(dir:'images', file: 'campbellsportgovHomeSmall.png')}"/>
             </a>
         </div>
-        <div class="grid_4 prefix_1 suffix_1">
-            <a class="imageZoom" title="GrailsBlog.com" href="${resource(dir:'images',file:'sigepalumniHomeLarge.png')}">
+        <div class="grid_6">
+            <h1>SigEp-Alumni.com</h1>
+            <a class="imageZoom" title="SigEp-Alumni.com" href="${resource(dir:'images',file:'sigepalumniHomeLarge.png')}">
                 <img src="${resource(dir:'images', file: 'sigepalumniHomeSmall.png')}"/>
             </a>
         </div>
