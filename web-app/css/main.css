@@ -191,3 +191,9 @@ html, body {
   padding: 0px 10px 0px 10px;
   height: 15em;
 }
+
+/* Portfolio */
+.portfolio img {
+    float: left;
+    margin-right: 10px;
+}
