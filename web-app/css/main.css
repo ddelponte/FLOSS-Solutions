@@ -197,3 +197,17 @@ html, body {
     float: left;
     margin-right: 10px;
 }
+
+/* Contact Us */
+.contactUsForm input, .contactUsForm textArea {
+    margin: 10px 0;
+}
+
+.contactUsForm input {  
+    width: 250px;
+}
+
+.contactUsForm textArea {  
+    width: 500px;
+    height: 300px;
+}

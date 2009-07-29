@@ -18,26 +18,28 @@
             <h1>Send Us an Email</h1>
         </div>
         <div class="grid_12">
-            <g:form name="contactForm" action="sendEmail">
+            <g:form class="contactUsForm" name="contactForm" action="sendEmail">
                 <div class="grid_1">
-                    Name:
+                    <h2>Name:</h2>
                 </div>
                 <div class="grid_10">
-                    stuff
+                    <input type="text" name="name" />
                 </div>
+                <div class="clear"></div>
                 <div class="grid_1">
-                    Email:
+                    <h2>Email:</h2>
                 </div>
                 <div class="grid_10">
-                    stuff
+                    <input type="text" name="email" />
                 </div>
+                <div class="clear"></div>
                 <div class="grid_1">
-                    Message:
+                    <h2>Message:</h2>
                 </div>
                 <div class="grid_10">
-                    stuff
+                    <g:textArea name="message" />
                 </div>
-                <div class="grid_1">
+                <div class="grid_1 prefix_1">
                     <g:submitButton name="sendEmail" value="Submit" />
                 </div>
             </g:form>

@@ -6,8 +6,7 @@ class ContactController {
     def index = { }
     
     def sendEmail = {
-        println "params ${params}"
-        mailService.sendMail("TESTING", "TESTING DETAILS")
+        mailService.sendMail(params.name, params.email, params.message)
         redirect(controller: "contact", action: "index")
     }
 }
