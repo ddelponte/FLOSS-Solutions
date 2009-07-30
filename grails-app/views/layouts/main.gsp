@@ -10,6 +10,10 @@
         <link rel="shortcut icon" href="${resource(dir:'images',file:'favicon.ico')}" type="image/x-icon" />
         <g:layoutHead />
         <g:javascript library="application" />
+        <meta name="description" content="Professional, freelance software development company located in SE Wisconsin.  PH:  414.678.9661"/>
+        <meta name="keywords" content="freelance, software, development, software development, IT, 
+        consulting, web, website, websites, web site, web sites, groovy, grails, Groovy/Grails, Wisconsin, 
+        wisconsin, WI, Milwaukee, Java, HTML, CSS, AJAX, jQuery"/>     
     </head>
     <body>
         <div class="wrapper">
