@@ -43,9 +43,9 @@
             				<h1>Custom Websites</h1>
             				<ul style="margin-left: 15px;">
             				    <li>Professional</li>
-            				    <li>Attractive Design</li>
+            				    <li>Attractive</li>
             				    <li>AJAX</li>
-            				    <li>Development</li>
+            				    <li>Web 2.0</li>
             				    <li>Hosting</li>
         				    </ul>
     		            </div>
@@ -62,9 +62,9 @@
             				<h1>Web Applications</h1>
             				<ul style="margin-left: 15px;">
             				    <li>Custom Logic</li>
-            				    <li>Database Backend</li>
-            				    <li>Intuitive Design</li>
-            				    <li>Hosting</li>
+            				    <li>Database Support</li>
+            				    <li>Intuitive</li>
+            				    <li>Fast</li>
         				    </ul>
 			            </div>
         			</div><!-- End cs_article -->
