@@ -358,3 +358,4 @@ web-app/plugins/jquery-1.3.2.4/js/prototype/slider.js
 web-app/plugins/jquery-1.3.2.4/js/prototype/sound.js
 web-app/plugins/jquery-1.3.2.4/js/prototype/unittest.js
 config
+stacktrace.log
