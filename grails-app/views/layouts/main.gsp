@@ -13,7 +13,8 @@
         <meta name="description" content="Professional, freelance software development company located in SE Wisconsin.  PH:  414.678.9661"/>
         <meta name="keywords" content="freelance, software, development, software development, IT, 
         consulting, web, website, websites, web site, web sites, groovy, grails, Groovy/Grails, Wisconsin, 
-        wisconsin, WI, Milwaukee, Java, HTML, CSS, AJAX, jQuery"/>     
+        wisconsin, WI, Milwaukee, Java, HTML, CSS, AJAX, jQuery"/>  
+        <meta name="verify-v1" content="KAyHEhAfBz/rWAufg7PD2+9wXkq9/qAz4iatKtiZuQg=" />   
     </head>
     <body>
         <div class="wrapper">
