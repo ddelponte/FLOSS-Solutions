@@ -17,6 +17,8 @@
               <li>GWT</li>
               <li>Tomcat</li>
               <li>OS X</li>
+              <li>AppEngine</li>
+              <li>Git</li>
           </ul>
         </div>
         <div class="grid_1 omega">
@@ -28,6 +30,7 @@
               <li>Apache</li>
               <li>Linux</li>
               <li>Windows</li>
+              <li>SVN</li>
           </ul>
         </div>
     </div>
