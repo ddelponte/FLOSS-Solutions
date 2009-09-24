@@ -5,9 +5,7 @@ class UrlMappings {
 			 // apply constraints here
 		  }
 	  }
+      "/"(view:"/index")
 	  "500"(view:'/error')
-	  
-      // Anonymous browsing
-      "/"(controller: "home", action: "index")
 	}
 }
