@@ -8,8 +8,11 @@ class ContactController {
         [params: params]
     }
     
-    def sendEmail = {        
-        if (isRecaptchaOK()) {
+    def sendEmail = { ContactUsCommand cmd ->
+        if (cmd.hasErrors()) {
+            flash.message = "Please complete the form correctly before submitting"
+        }
+        else if (isRecaptchaOK()) {
             recaptchaService.cleanUp(session)
 
             mailService.sendMail {
@@ -20,9 +23,7 @@ class ContactController {
             }
             
             flash.message = "Thank-you for contacting us.  We will send you a reply shortly."
-            params.name = ""
-            params.email = ""
-            params.message = ""
+            resetParams()
         }
         redirect(controller: "contact", action: "index", params: params)
     }
@@ -40,5 +41,22 @@ class ContactController {
         text = text + ("Email:  ${params.email}\n\n" ?: '\n\n')
         text = (text + params.message ?: '')
         return text
+    }
+
+    def resetParams() {
+        params.name = ""
+        params.email = ""
+        params.message = ""
+    }
+}
+
+class ContactUsCommand {
+    String name
+    String email
+    String message
+
+    static constraints = {
+        email(blank:false, minSize:4, email: true)
+        message(blank:false, minSize:6)
     }
 }
