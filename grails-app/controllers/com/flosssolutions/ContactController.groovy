@@ -12,7 +12,7 @@ class ContactController {
             subject "[Contact Inquiry]"
             body "${buildMessageText()}"
         }
-        flash.message = "Thank-you for contacting us."
+        flash.message = "Thank-you for contacting us.  We will send you a reply shortly."
         redirect(controller: "contact", action: "index")
     }
 
