@@ -10,9 +10,9 @@ class ContactController {
             to "dean.delponte@flosssolutions.com"
             from "dean.delponte@flosssolutions.com"
             subject "[Contact Inquiry]"
-            body '${buildMessageText()}'
+            body "${buildMessageText()}"
         }
-//        mailService.sendMail(params.name, params.email, params.message)
+        flash.message = "Thank-you for contacting us."
         redirect(controller: "contact", action: "index")
     }
 
