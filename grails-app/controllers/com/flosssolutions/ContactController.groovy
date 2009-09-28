@@ -2,18 +2,37 @@ package com.flosssolutions
 
 class ContactController {
     def mailService
+    def recaptchaService
 
-    def index = { }
+    def index = {
+        [params: params]
+    }
     
-    def sendEmail = {
-        mailService.sendMail {
-            to "dean.delponte@flosssolutions.com"
-            from "dean.delponte@flosssolutions.com"
-            subject "[Contact Inquiry]"
-            body "${buildMessageText()}"
+    def sendEmail = {        
+        if (isRecaptchaOK()) {
+            recaptchaService.cleanUp(session)
+
+            mailService.sendMail {
+                to "dean.delponte@flosssolutions.com"
+                from "dean.delponte@flosssolutions.com"
+                subject "[Contact Inquiry]"
+                body "${buildMessageText()}"
+            }
+            
+            flash.message = "Thank-you for contacting us.  We will send you a reply shortly."
+            params.name = ""
+            params.email = ""
+            params.message = ""
         }
-        flash.message = "Thank-you for contacting us.  We will send you a reply shortly."
-        redirect(controller: "contact", action: "index")
+        redirect(controller: "contact", action: "index", params: params)
+    }
+
+    def isRecaptchaOK() {
+        def recaptchaOK = true
+        if (!recaptchaService.verifyAnswer(session, request.getRemoteAddr(), params)) {
+        	recaptchaOK = false
+        }
+        return recaptchaOK
     }
 
     def buildMessageText() {

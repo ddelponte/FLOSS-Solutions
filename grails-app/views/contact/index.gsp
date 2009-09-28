@@ -23,21 +23,27 @@
                     <h2>Name:</h2>
                 </div>
                 <div class="grid_10">
-                    <input type="text" name="name" />
+                    <input type="text" name="name" value="${params.name}"/>
                 </div>
                 <div class="clear"></div>
                 <div class="grid_1">
                     <h2>Email:</h2>
                 </div>
                 <div class="grid_10">
-                    <input type="text" name="email" />
+                    <input type="text" name="email" value="${params.email}"/>
                 </div>
                 <div class="clear"></div>
                 <div class="grid_1">
                     <h2>Message:</h2>
                 </div>
                 <div class="grid_10">
-                    <g:textArea name="message" />
+                    <g:textArea name="message" value="${params.message}"/>
+                </div>
+                <div class="clear"></div>
+                <div class="grid_10 prefix_1">
+                    <recaptcha:ifEnabled>
+                        <recaptcha:recaptcha/>
+                    </recaptcha:ifEnabled>
                 </div>
                 <div class="grid_1 prefix_1">
                     <g:submitButton name="sendEmail" value="Submit" />
