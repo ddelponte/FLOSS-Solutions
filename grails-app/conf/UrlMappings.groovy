@@ -1,3 +1,5 @@
+import grails.util.GrailsUtil
+
 class UrlMappings {
     static mappings = {
       "/$controller/$action?/$id?"{
@@ -5,7 +7,13 @@ class UrlMappings {
 			 // apply constraints here
 		  }
 	  }
-      "/"(view:"/index")
-	  "500"(view:'/error')
+  	  "500"(view:'/error')	  
+
+  	  if (GrailsUtil.environment == "production") {
+  	      "/"(controller: "home", action: "index")
+  	  }
+	  else {
+        "/"(view:"/index")
+	  }
 	}
 }
