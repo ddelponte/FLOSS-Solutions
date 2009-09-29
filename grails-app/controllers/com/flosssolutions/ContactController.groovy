@@ -5,14 +5,10 @@ class ContactController {
     def recaptchaService
 
     def index = {
-        [params: params]
     }
     
     def sendEmail = { ContactUsCommand cmd ->
-        if (cmd.hasErrors()) {
-            flash.message = "Please complete the form correctly before submitting"
-        }
-        else if (isRecaptchaOK()) {
+        if (!cmd.hasErrors() && isRecaptchaOK()) {
             recaptchaService.cleanUp(session)
 
             mailService.sendMail {
@@ -25,7 +21,7 @@ class ContactController {
             flash.message = "Thank-you for contacting us.  We will send you a reply shortly."
             resetParams()
         }
-        redirect(controller: "contact", action: "index", params: params)
+        render(view: "index", model: [contactUsCommand: cmd])
     }
 
     def isRecaptchaOK() {
@@ -56,7 +52,7 @@ class ContactUsCommand {
     String message
 
     static constraints = {
-        email(blank:false, minSize:4, email: true)
+        email(blank:false, email: true)
         message(blank:false, minSize:6)
     }
 }

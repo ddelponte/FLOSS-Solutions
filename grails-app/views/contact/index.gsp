@@ -9,6 +9,11 @@
             <g:if test="${flash.message}">
                 <div class="message">${flash.message}</div>
             </g:if>
+            <g:hasErrors bean="${contactUsCommand}">
+                <div class="errors">
+                    <g:renderErrors bean="${contactUsCommand}" as="list" />
+                </div>
+            </g:hasErrors>
         </div>
         <div class="grid_6">
             <h1>Phone:  (414) 678-9661</h1>
@@ -23,21 +28,21 @@
                     <h2>Name:</h2>
                 </div>
                 <div class="grid_10">
-                    <input type="text" name="name" value="${params.name}"/>
+                    <input type="text" name="name" value="${contactUsCommand?.name}"/>
                 </div>
                 <div class="clear"></div>
                 <div class="grid_1">
                     <h2>Email:</h2>
                 </div>
                 <div class="grid_10">
-                    <input type="text" name="email" value="${params.email}"/>
+                    <input type="text" name="email" value="${contactUsCommand?.email}"/>
                 </div>
                 <div class="clear"></div>
                 <div class="grid_1">
                     <h2>Message:</h2>
                 </div>
                 <div class="grid_10">
-                    <g:textArea name="message" value="${params.message}"/>
+                    <g:textArea name="message" value="${contactUsCommand?.message}"/>
                 </div>
                 <div class="clear"></div>
                 <div class="grid_10 prefix_1">
