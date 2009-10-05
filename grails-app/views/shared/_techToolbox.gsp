@@ -19,6 +19,7 @@
               <li>OS X</li>
               <li>AppEngine</li>
               <li>Git</li>
+              <li>FindBugs</li>
           </ul>
         </div>
         <div class="grid_1 omega">
@@ -31,6 +32,8 @@
               <li>Linux</li>
               <li>Windows</li>
               <li>SVN</li>
+              <li>Hudson</li>
+              <li>PMD</li>
           </ul>
         </div>
     </div>
