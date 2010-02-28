@@ -152,8 +152,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="axis2" />
-              <option name="release" value="0.6.1" />
-              <option name="title" value="Adds Web Service support for Grails services using Apaxhe Axis2." />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -161,8 +161,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="background-thread" />
-              <option name="release" value="1.3" />
-              <option name="title" value="Background Thread Plugin" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -170,8 +170,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="barcode4j" />
-              <option name="release" value="0.1" />
-              <option name="title" value="Barcode4j plugin" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -179,8 +179,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="bean-fields" />
-              <option name="release" value="0.3" />
-              <option name="title" value="Bean Fields - smart tags for command and domain objects" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -188,8 +188,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="birt-report" />
-              <option name="release" value="0.5" />
-              <option name="title" value="Birt Reporting Plugin" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -197,8 +197,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="blueprint-css" />
-              <option name="release" value="0.1" />
-              <option name="title" value="Blueprint Css" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -206,8 +206,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="blurb" />
-              <option name="release" value="0.1" />
-              <option name="title" value="Provides tag to render dynamically updateable text in GSP views." />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -215,8 +215,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="bubbling" />
-              <option name="release" value="2.1.1" />
-              <option name="title" value="Bubbling Library YUI Extension" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -224,8 +224,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="build-test-data" />
-              <option name="release" value="0.2.3" />
-              <option name="title" value="Build Test Data Plugin" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -233,8 +233,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="burning-image" />
-              <option name="release" value="0.2" />
-              <option name="title" value="Burning Image" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -242,8 +242,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="c2d" />
-              <option name="release" value="0.1" />
-              <option name="title" value="This plugin adds the ClickToDial functionality to a Grails Web Application using SIP Servlets" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -260,8 +260,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="calendar" />
-              <option name="release" value="1.2.0-SNAPSHOT2" />
-              <option name="title" value="Grails Calendar Plugin" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -269,8 +269,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="camel" />
-              <option name="release" value="0.2" />
-              <option name="title" value="Integration with Apache Camel" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -278,8 +278,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="cas-client" />
-              <option name="release" value="1.0" />
-              <option name="title" value="This plugin provides client integration for JA-SIG CAS" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -287,8 +287,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="circuit-breaker" />
-              <option name="release" value="0.2" />
-              <option name="title" value="Circuit Breaker Plugin" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -296,8 +296,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="clamav" />
-              <option name="release" value="0.2" />
-              <option name="title" value=" " />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -305,8 +305,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="class-diagram" />
-              <option name="release" value="0.3" />
-              <option name="title" value="Creates class diagram of Grails domain model" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -314,8 +314,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="clickstream" />
-              <option name="release" value="0.1" />
-              <option name="title" value="Clickstream" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -323,8 +323,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="clojure" />
-              <option name="release" value="0.2" />
-              <option name="title" value="Grails Clojure Plugin" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -332,8 +332,8 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="cms" />
-              <option name="release" value="0.1.7.8" />
-              <option name="title" value="A Simple CMS for Grails" />
+              <option name="release" value="no releases" />
+              <option name="title" value="No description available" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -610,7 +610,7 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="drools-gorm" />
-              <option name="release" value="0.2" />
+              <option name="release" value="0.3" />
               <option name="title" value="Drools GORM" />
             </GrailsPlugin>
           </value>
@@ -682,7 +682,7 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="export" />
-              <option name="release" value="0.4" />
+              <option name="release" value="0.5" />
               <option name="title" value="Export functionality" />
             </GrailsPlugin>
           </value>
@@ -870,7 +870,7 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="gdsflex" />
-              <option name="release" value="0.7.1" />
+              <option name="release" value="0.7.2" />
               <option name="title" value="Integration between Grails and GraniteDS/Flex" />
             </GrailsPlugin>
           </value>
@@ -924,7 +924,7 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="gorm-labs" />
-              <option name="release" value="0.6.7" />
+              <option name="release" value="0.7.1" />
               <option name="title" value="GORM Labs" />
             </GrailsPlugin>
           </value>
@@ -951,7 +951,7 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="grails-ui" />
-              <option name="release" value="1.1-SNAPSHOT" />
+              <option name="release" value="1.1" />
               <option name="title" value="Grails UI" />
             </GrailsPlugin>
           </value>
@@ -1223,6 +1223,15 @@
               <option name="name" value="jcr" />
               <option name="release" value="no releases" />
               <option name="title" value="No description available" />
+            </GrailsPlugin>
+          </value>
+        </entry>
+        <entry key="jdbc-pool">
+          <value>
+            <GrailsPlugin>
+              <option name="name" value="jdbc-pool" />
+              <option name="release" value="0.1" />
+              <option name="title" value="Tomcat JDBC Pool plugin" />
             </GrailsPlugin>
           </value>
         </entry>
@@ -1534,7 +1543,7 @@
           <value>
             <GrailsPlugin>
               <option name="name" value="multi-tenant" />
-              <option name="release" value="0.14" />
+              <option name="release" value="0.15" />
               <option name="title" value="Multi-Tenant Plugin" />
             </GrailsPlugin>
           </value>
@@ -2442,25 +2451,21 @@
     </option>
     <option name="fullPluginsInfo">
       <map>
-        <entry key="jquery">
+        <entry key="bean-fields">
           <value>
             <GrailsPlugin>
-              <option name="author" value="Sergey Nebolsin, Craig Jones and Finn Herpich" />
-              <option name="description" value="Provides integration JQuery library" />
-              <option name="email" value="nebolsin@gmail.com, craigjones@maximsc.com and finn.herpich@marfinn-software.de" />
-              <option name="name" value="jquery" />
-              <option name="release" value="1.3.2.4" />
-              <option name="title" value="Name: jquery&#9;| Latest release: 1.3.2.4" />
-              <option name="url" value="http://grails.org/JQuery+Plugin" />
+              <option name="author" value="Marc Palmer" />
+              <option name="description" value="\" />
+              <option name="email" value="marc@grailsrocks.com" />
+              <option name="name" value="bean-fields" />
+              <option name="release" value="0.3" />
+              <option name="title" value="Name: bean-fields&#9;| Latest release: 0.3" />
+              <option name="url" value="http://grails.org/plugin/bean-fields" />
               <option name="versions">
                 <set>
-                  <option value="1.0RC1" />
-                  <option value="1.0RC2" />
-                  <option value="1.0RC2b" />
-                  <option value="1.3.2.1" />
-                  <option value="1.3.2.2" />
-                  <option value="1.3.2.3" />
-                  <option value="1.3.2.4" />
+                  <option value="0.1" />
+                  <option value="0.2" />
+                  <option value="0.3" />
                 </set>
               </option>
             </GrailsPlugin>
@@ -2472,8 +2477,16 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins">
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/bean-fields-0.3/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/jquery-1.3.2.4/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/jquery-1.3.2.4/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/mail-0.7.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/mail-0.7.1/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/mail-0.7.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/recaptcha-0.4.5/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/recaptcha-0.4.5/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/recaptcha-0.4.5/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/tomcat-1.2-M3/src/groovy" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/grails-app/conf/hibernate" isTestSource="false" />
@@ -2494,10 +2507,14 @@
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
           <root url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/hibernate-1.1.1/lib" />
+          <root url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/mail-0.7.1/lib" />
+          <root url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/tomcat-1.2-M3/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/hibernate-1.1.1/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/mail-0.7.1/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.1.1/projects/FLOSS-Solutions/plugins/tomcat-1.2-M3/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
